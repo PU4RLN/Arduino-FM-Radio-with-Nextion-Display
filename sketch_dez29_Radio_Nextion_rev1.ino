@@ -1,6 +1,6 @@
 
 //Arduino NANO
-//Escolher Atmega 328p old bootloader
+//choose Atmega 328p old bootloader
 //pin TX - Nextion Yellow
 //pin RX - Nextion Blue
 //Pin A4 - SDA
