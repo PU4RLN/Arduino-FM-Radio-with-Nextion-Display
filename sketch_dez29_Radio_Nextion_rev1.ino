@@ -1,3 +1,9 @@
+//References used to learn about Nextion Display and TEA 5767
+//https://www.youtube.com/watch?v=2zDb9GMNKpM&list=FLKZo3DRsU-xVdMtiIv7x7zQ&index=13&t=25s
+//https://www.youtube.com/watch?v=uUxnkGxpYJQ&list=FLKZo3DRsU-xVdMtiIv7x7zQ&index=9&t=3s
+//https://www.youtube.com/watch?v=2zDb9GMNKpM&list=FLKZo3DRsU-xVdMtiIv7x7zQ&index=8
+//https://www.youtube.com/watch?v=WF9RXlG8LlY&list=FLKZo3DRsU-xVdMtiIv7x7zQ&index=58
+//https://www.youtube.com/watch?v=xAd5q9y9kKs&list=FLKZo3DRsU-xVdMtiIv7x7zQ&index=19
 
 //Arduino NANO
 //choose Atmega 328p old bootloader
@@ -28,9 +34,9 @@ NexButton buttonMinus1 = NexButton(1, 6, "buttonMinus1");
 
 NexProgressBar j0 = NexProgressBar(1, 1, "j0");
 
-NexPage page0 = NexPage(0, 0, "page0"); //inicia
+NexPage page0 = NexPage(0, 0, "page0"); //initial message
 NexPage page1 = NexPage(1, 0, "page1"); //radio
-NexPage page2 = NexPage(2, 0, "page2"); //foto
+NexPage page2 = NexPage(2, 0, "page2"); //optional
 
 //float number = 93.3;
 float number = 933;
